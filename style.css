@@ -1,5 +1,6 @@
 body {
   background-color:#000;
+  font-size: 1.5em;
 }
 
 .container{
@@ -10,7 +11,7 @@ body {
     width: 80%;
     height: 400px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,11 +19,20 @@ body {
 }
 
 .title{
-   font-size: 20px;
+   font-size: 3em;
    color: grey;
    font-weight: bold;
+}
+
+.wrapper{
+    margin: 10px 0;
+}
+
+span{
+
 }
 
 input,buton {
   margin: 5px 0;
 }
+
