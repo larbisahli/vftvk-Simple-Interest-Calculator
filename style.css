@@ -1,15 +1,14 @@
 body {
   background-color:#000;
-  position:relative;
 }
 
 .container{
-    postion: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    height: 80%;
+    height: 400px;
     background-color: #fff;
     border-radius: 10px;
     display: flex;
