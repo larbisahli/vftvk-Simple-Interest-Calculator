@@ -13,9 +13,6 @@ body {
     background-color: #fff;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .title{
@@ -26,6 +23,8 @@ body {
 
 .wrapper{
     margin: 10px 0;
+    justify-self: center;
+    align-self:center;
 }
 
 span{
