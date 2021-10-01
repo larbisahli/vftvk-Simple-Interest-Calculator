@@ -9,7 +9,7 @@
             <div class="wrapper">
                 Amount <input type="number"  id="principal">  <br/>
                 Rate <input type="range"  id="rate">  <br/>
-                No. of Years <input type="number"  id="years">  <br/>
+                No. of Years <input type="number" min="12" max="5000" step="12"  id="years">  <br/>
                 Interest : <span id="result"></span><br>
                 <button onclick="compute()">Compute Interest</button>
             </div>
